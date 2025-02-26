@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <title>movie list</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
+
+    <section class="header" >
+        <div class="container">
+            <div class="header__block">
+                <div class="header__titles">
+                    <h1 class="header__title">
+                        список фильмов
+                    </h1>
+                    <h2 class="header__title" >
+                          2025
+                    </h2>
+                </div>
+                <p class="header__paragraph">Посмотреть</p>
+            </div>
+            </div>
+    </section>
+
+ <section class="movies" >
+    
+            <div class="container">
+                <div class="movies__content">
+                    <div class="movies__input-list">
+                        <input  class=" js-movies__input movies__input" type="text" placeholder="Добавить фильм">
+                        <button class=" js-movies__btn movies__btn" >
+                            <img src="recources/movies__add-btn.png" alt="Кнопка добавления филма">
+                        </button>
+    
+                     </div>
+                </div>
+
+                <div class="movies__list-container">
+                    <ul class=" js-movies__list movies__list" >
+                          
+                    </ul>
+                </div>
+    
+            </div>
+    
+</section>
+
+<script src="index.js"></script>
+  </body>
+</html>
+
